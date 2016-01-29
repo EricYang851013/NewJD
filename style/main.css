@@ -50,3 +50,121 @@
 	padding-left: 41px;
 	padding-top: 13px;
 }
+
+
+/*search*/
+.search_box
+{
+	width: 430px;
+	padding-top: 23px;
+	padding-left: 185px;
+
+}
+.search_text
+{
+	width: 350px;
+	height: 35px;
+	padding: 0 5px;
+}
+.search_btn
+{
+	width: 70px;
+	height: 35px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei", "微软雅黑";
+	background-color: #ff8c00;
+	color: #fff;
+}
+
+
+/*购物车*/
+.shopCar
+{
+	width: 145px;
+	height: 35px;
+	background-color: #ff8c00;
+	margin-top: 23px;
+	margin-right: 59px;
+}
+
+.shopText
+{
+	font-size: 14px;
+	font-family: "Microsoft YaHei", "微软雅黑";
+	line-height: 35px;
+	color:#fff;
+	height: 100%;
+	width: 87px;
+	border-right: #e27a00 solid 1px;
+	background: url(../images/icon/shaoIcon.jpg) 10px center no-repeat;
+	text-indent: 40px;
+}
+
+.shopNum
+{
+	font-size: 14px;
+	font-family: "Microsoft YaHei", "微软雅黑";
+	line-height: 35px;
+	color:#fff;
+	width: 27px;
+	height: 35px;
+	border-left: #ff9c01 solid 1px	background: url(../images/icon/sj.jpg) 33px center no-repeat;
+	text-align: right;
+	padding-right: 29px;
+}
+
+/*NavBar*/
+.navBox
+{
+	height: 35px;
+	background-color: #1369c0;
+	color: #fff;
+}
+.shopClass
+{
+	width: 190px;
+	line-height: 35px;
+}
+
+.shopClass h3
+{
+		text-align: center;
+}
+
+.shopClass i
+{
+	width: 11px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../images/icon/down.jpg) left center no-repeat;
+	display: inline-block;
+	margin-left: 11px;
+}
+.nav, .shopClass
+{
+		font-family: "Microsoft YaHei", "微软雅黑";
+
+}
+
+.nav
+{
+	line-height: 35px;
+}
+
+.nav li
+{
+	float: left;
+}
+
+.nav a
+{
+	height: 35px;
+	display: inline-block;
+	padding: 0 35px;
+	color:  #fff;
+}
+
+.nav .active
+{
+	background-color: #4593fd;
+}
